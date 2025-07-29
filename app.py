@@ -15,7 +15,7 @@ st.markdown("""
             padding: 0;
         }
         .block-container {
-            padding-left: 1rem !important;
+            padding-left: 0.5rem !important;
             padding-right: 1rem !important;
         }
         .header {
@@ -66,9 +66,18 @@ if st.button("Click me!"):
     st.success("You clicked the button!")
 
 # Sidebar
-st.sidebar.title("Navigation")
+st.sidebar.title("Always On Insights")
 st.sidebar.info("This sidebar can include links, help, or other info.")
-
+st.sidebar.markdown("""
+- [Sales](#sales)
+- [Operations](#operations)
+- [Digital](#digital)
+- [Menu Mix](#menu-mix)
+- [Loyalty](#loyalty)
+- [Customer](#customer)
+- [Supply Chain](#supply-chain)
+- [HR](#hr)
+""")
 # Footer
 st.markdown("---")
 st.markdown("Created with ❤️ using Streamlit")
