@@ -9,18 +9,23 @@ st.markdown('<img src="https://raw.githubusercontent.com/greenemr/streamlit-hell
 
 st.markdown("""
     <style>
-    body, .stApp {
-        background-color: #F0EADC;
-    }
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #F0EADC;
-        padding: 10px 20px;
-        border-bottom: 1px solid #ccc;
-    }
-    
+        body, .stApp {
+            background-color: #F0EADC;
+            margin: 0;
+            padding: 0;
+        }
+        .block-container {
+            padding-left: 0rem !important;
+            padding-right: 1rem !important;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #F0EADC;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+        }
         .nav-links a {
             margin-right: 15px;
             text-decoration: none;
@@ -31,6 +36,7 @@ st.markdown("""
             text-decoration: underline;
         }
     </style>
+    
     <div class="header">
         <div class="nav-links">
             <a href="#sales">Sales</a>
