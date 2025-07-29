@@ -69,15 +69,17 @@ if st.button("Click me!"):
 st.sidebar.title("Always On Insights")
 st.sidebar.info("This sidebar can include links, help, or other info.")
 st.sidebar.markdown("""
-- [Sales](#sales)
-- [Operations](#operations)
-- [Digital](#digital)
-- [Menu Mix](#menu-mix)
-- [Loyalty](#loyalty)
-- [Customer](#customer)
-- [Supply Chain](#supply-chain)
-- [HR](#hr)
-""")
+<a href="#sales">Sales</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#in-store">In-Store</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#digital-sales">Digital</a><br>
+<a href="#operations">Operations</a><br>
+<a href="#digital">Digital</a><br>
+<a href="#menu-mix">Menu Mix</a><br>
+<a href="#loyalty">Loyalty</a><br>
+<a href="#customer">Customer</a><br>
+<a href="#supply-chain">Supply Chain</a><br>
+<a href="#hr">HR</a>
+""", unsafe_allow_html=True)
 # Footer
 st.markdown("---")
 st.markdown("Created with ❤️ using Streamlit")
