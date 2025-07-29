@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page configuration
-st.set_page_config(page_title="Basic Streamlit App", layout="wide")
+st.set_page_config(page_title="Always-On Insights", layout="wide")
 
 # Header navigation bar
 st.markdown("""
@@ -10,7 +10,7 @@ st.markdown("""
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #f8f9fa;
+            background-color: #F0EADC;
             padding: 10px 20px;
             border-bottom: 1px solid #dee2e6;
         }
