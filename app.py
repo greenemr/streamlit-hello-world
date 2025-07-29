@@ -66,7 +66,7 @@ if st.button("Click me!"):
     st.success("You clicked the button!")
 
 # Sidebar
-st.sidebar.image("chipotle-mexican-grill 1.png", width=150)
+st.sidebar.image("chipotle-mexican-grill 1.png", width=50)
 st.sidebar.title("Always On Insights")
 st.sidebar.info("This sidebar can include links, help, or other info.")
 st.sidebar.markdown("""
