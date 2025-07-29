@@ -4,6 +4,8 @@ import streamlit as st
 st.set_page_config(page_title="Always-On Insights", layout="wide")
 
 # Header navigation bar
+st.markdown('<img src="https://github.com/greenemr/streamlit-hello-world/blob/main/AOI%20Header%201.png" width="100%">', unsafe_allow_html=True)
+
 st.markdown("""
     <style>
         .header {
