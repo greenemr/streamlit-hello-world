@@ -9,14 +9,18 @@ st.markdown('<img src="https://raw.githubusercontent.com/greenemr/streamlit-hell
 
 st.markdown("""
     <style>
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #F0EADC;
-            padding: 10px 20px;
-            border-bottom: 1px solid #dee2e6;
-        }
+    body, .stApp {
+        background-color: #F0EADC;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F0EADC;
+        padding: 10px 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    
         .nav-links a {
             margin-right: 15px;
             text-decoration: none;
